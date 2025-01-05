@@ -1,0 +1,139 @@
+{
+  "guestList": [
+    {
+      "id": "1",
+      "fullName": "Korsós Erik",
+      "numberOfFriends": 4,
+      "expectedSpending": 5000,
+      "email": "korsos.erik@student.jedlik.eu",
+      "gender": "Other",
+      "country": "Hungary"
+    },
+    {
+      "id": "2",
+      "fullName": "Éva Nagy",
+      "numberOfFriends": 2,
+      "expectedSpending": 10000,
+      "email": "eva.nagy@citromail.hu",
+      "gender": "Female",
+      "country": "Hungary"
+    },
+    {
+      "id": "4",
+      "fullName": "Anna Horváthová",
+      "numberOfFriends": 4,
+      "expectedSpending": 20000,
+      "email": "anna.horvathova@zoznam.sk",
+      "gender": "Female",
+      "country": "Slovakia"
+    },
+    {
+      "id": "5",
+      "fullName": "Michael Bauer",
+      "numberOfFriends": 2,
+      "expectedSpending": 12000,
+      "email": "michael.bauer@gmx.at",
+      "gender": "Male",
+      "country": "Austria"
+    },
+    {
+      "id": "6",
+      "fullName": "Johanna Gruber",
+      "numberOfFriends": 1,
+      "expectedSpending": 7000,
+      "email": "johanna.gruber@aon.at",
+      "gender": "Female",
+      "country": "Austria"
+    },
+    {
+      "id": "7",
+      "fullName": "Maria Popescu",
+      "numberOfFriends": 4,
+      "expectedSpending": 14000,
+      "email": "maria.popescu@yahoo.ro",
+      "gender": "Female",
+      "country": "Romania"
+    },
+    {
+      "id": "8",
+      "fullName": "Ion Ionescu",
+      "numberOfFriends": 2,
+      "expectedSpending": 11000,
+      "email": "ion.ionescu@gmail.ro",
+      "gender": "Male",
+      "country": "Romania"
+    },
+    {
+      "id": "9",
+      "fullName": "Anna Müller",
+      "numberOfFriends": 2,
+      "expectedSpending": 9000,
+      "email": "anna.muller@web.de",
+      "gender": "Other",
+      "country": "Germany"
+    },
+    {
+      "id": "10",
+      "fullName": "Lukas Schmidt",
+      "numberOfFriends": 1,
+      "expectedSpending": 6000,
+      "email": "lukas.schmidt@mail.de",
+      "gender": "Male",
+      "country": "Germany"
+    },
+    {
+      "id": "11",
+      "fullName": "Sofia Rossi",
+      "numberOfFriends": 4,
+      "expectedSpending": 20000,
+      "email": "sofia.rossi@libero.it",
+      "gender": "Female",
+      "country": "Italy"
+    },
+    {
+      "id": "12",
+      "fullName": "Giovanni Bianchi",
+      "numberOfFriends": 3,
+      "expectedSpending": 15000,
+      "email": "giovanni.bianchi@virgilio.it",
+      "gender": "Male",
+      "country": "Italy"
+    },
+    {
+      "id": "13",
+      "fullName": "Pierre Dubois",
+      "numberOfFriends": 2,
+      "expectedSpending": 12000,
+      "email": "pierre.dubois@orange.fr",
+      "gender": "Male",
+      "country": "France"
+    },
+    {
+      "id": "14",
+      "fullName": "Camille Martin",
+      "numberOfFriends": 1,
+      "expectedSpending": 8000,
+      "email": "camille.martin@sfr.fr",
+      "gender": "Female",
+      "country": "France"
+    },
+    {
+      "id": "15",
+      "fullName": "David Johnson",
+      "numberOfFriends": 2,
+      "expectedSpending": 10000,
+      "email": "david.johnson@outlook.com",
+      "gender": "Male",
+      "country": "United States"
+    },
+    {
+      "id": "16",
+      "fullName": "Emily Brown",
+      "numberOfFriends": 1,
+      "expectedSpending": 5000,
+      "email": "emily.brown@yahoo.com",
+      "gender": "Female",
+      "country": "United States"
+    }
+  ]
+}

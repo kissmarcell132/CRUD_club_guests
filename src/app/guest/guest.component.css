@@ -1,0 +1,28 @@
+*{
+    color: #212ad7;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-weight: bold;
+}
+
+.back{
+    background: linear-gradient(to bottom, #a920a9, #212ad7);
+}
+
+.btn:first-child{
+    background-color: #212ad7;
+    color: white;
+}
+
+.btn{
+    background-color: #a920a9;
+    color: white;
+}
+
+.btn:first-child:hover{
+    background-color: #070b57;
+}
+
+.btn:hover{
+    background-color: #4f104f;
+
+}

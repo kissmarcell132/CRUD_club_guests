@@ -1,0 +1,38 @@
+<div class="container-fluid back">
+    <div class="container">
+
+        <img src="instant.png" class="center" alt="">
+        <h1 class="text-center">Európa legnagyobb szórakozóhelye Budapest szívében</h1>
+        <h3 class="text-center">VIP vendéglista</h3>
+        <table class="table table-hover table-bordered">
+            <tr class="text-center">
+                <th>
+                    <span class="nobg" (click)="newGuest()">&#10010;</span>
+                </th>
+                <th>Teljes név</th>
+                <th>Extra vendégek</th>
+                <th>Várható költés</th>
+                <th>E-mail cím</th>
+                <th>Nem</th>
+                <th>Származási hely</th>
+            </tr>
+            @for (g of guests; track $index) {
+            <tr>
+                <td>
+                    <span class="nobg" (click)="modifyGuest(g)">&#10000;</span>
+                    <span class="nobg" (click)="deleteGuest(g)">&#10008;</span>
+                </td>
+                <td>{{g.fullName}}</td>
+                <td>{{g.numberOfFriends}}</td>
+                <td>{{g.expectedSpending}} Ft</td>
+                <td>{{g.email}}</td>
+                <td>{{g.gender}}</td>
+                <td>{{g.country}}</td>
+            </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<app-guest [guestData]="modify" (saved)="saveModified($event)"></app-guest>
+<app-guest [guestData]="new" (saved)="saveNew($event)"></app-guest>

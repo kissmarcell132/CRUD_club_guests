@@ -1,0 +1,56 @@
+@if(guestData){
+<div class="modal back" tabindex="-1" style="display: block;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Adatok rögzítése</h5>
+                <button type="button" class="btn-close" (click)="guestData = undefined"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="teamName" class="form-label">Teljes név</label>
+                        <input type="text" class="form-control" id="teamName" [value]="guestData.fullName"
+                            (change)="guestData.fullName = getData($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamMembers" class="form-label">Extra vendégek</label>
+                        <input type="number" class="form-control" id="teamMembers" min="0" max="10"
+                            [value]="guestData.numberOfFriends" (change)="guestData.numberOfFriends = getNumberData($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamMembers" class="form-label">Várható költés</label>
+                        <input type="number" class="form-control" id="teamMembers" min="5000" step="1000"
+                            [value]="guestData.expectedSpending" (change)="guestData.expectedSpending = getNumberData($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="teamLeader" class="form-label">E-mail cím</label>
+                        <input type="text" class="form-control" id="teamLeader" [value]="guestData.email"
+                            (change)="guestData.email = getData($event)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Nem</label>
+                        <select class="form-select" id="category" [value]="guestData.gender" (change)="guestData.gender = getData($event)">
+                            <option selected>Válassz...</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Non-binary">Non-binary</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>                 
+                    <div class="mb-3">
+                        <label for="teamLeader" class="form-label">Származási hely</label>
+                        <input type="text" class="form-control" id="teamLeader" [value]="guestData.country"
+                            (change)="guestData.country = getData($event)">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-bs-dismiss="modal"
+                    (click)="guestData = undefined">Mégsem</button>
+                <button type="button" class="btn" (click)="save()">Mentés</button>
+            </div>
+        </div>
+    </div>
+</div>
+}
